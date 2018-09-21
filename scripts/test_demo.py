@@ -10,6 +10,7 @@ class TestDemo():
     @pytest.mark.run(order=2)
     def test_a(self):
         print("aaaaa")
+        assert 0
     @pytest.mark.run(order=0)
     def test_b(self):
         print("bbbbbb")
